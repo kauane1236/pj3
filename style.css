@@ -1,18 +1,28 @@
 body{ 
 background-color: bisque;
-font-family: "Bai Jamjuree";
+font-family: Bai Jamjuree;
 }
 
 #contanier{
- display: flex:
+ display: flex;
 }
 
+.cartao{   
+margin: 1rem 1rem;
+background-color: aqua;
+height: 20rem;
+flex-grow: 1;
+flex-basis: calc(33% - 6rem);
 
+}
 
+.cartao_conteudo{   
+ text-align: center;
+ background-color: aquamarine;
+ height: 100%;
+}
 
-
-
-
+.cartao_conteudo h3{fixed
 
 
 
